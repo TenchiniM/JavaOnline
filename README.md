@@ -1,1 +1,1 @@
-Este é um repositório apenas para estudo.
+Este é um repositório apenas para estudo e treinamento.
