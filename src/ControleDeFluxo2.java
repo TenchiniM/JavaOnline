@@ -1,7 +1,8 @@
 import javax.swing.*;
 
-public class ControleFluxo2 {
+public class ControleDeFluxo2 {
     public static void main(String[] args) {
+        // estrutura switch controle de fluxo
         byte dia = 7;
         char sexo = 'A';
         dia = Byte.parseByte(JOptionPane.showInputDialog("Qual dia você quer saber?"));
@@ -38,5 +39,4 @@ public class ControleFluxo2 {
         //default:
         //  JOptionPane.showMessageDialog(null, "Invalido");
     }
-}
 }
