@@ -1,3 +1,5 @@
+package ControleDeFluxo;
+
 public class ExercicioControleDeFluxo3 {
     public static void main(String[] args) {
         //imprimir os números pares de 1 até 100,000
