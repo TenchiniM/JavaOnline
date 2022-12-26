@@ -3,7 +3,9 @@ import javax.swing.*;
 public class ControleFluxo2 {
     public static void main(String[] args) {
         byte dia = 7;
+        char sexo = 'A';
         dia = Byte.parseByte(JOptionPane.showInputDialog("Qual dia você quer saber?"));
+
         switch (dia) {
             case 1:
                 JOptionPane.showMessageDialog(null, "Domingo");
@@ -26,6 +28,15 @@ public class ControleFluxo2 {
             case 7:
                 JOptionPane.showMessageDialog(null, "Sabado");
                 break;
+        }
+        switch (sexo) {
+            case 'F':
+                JOptionPane.showMessageDialog(null, "Feminino");
+                break;
+            case 'M':
+                JOptionPane.showMessageDialog(null, "Masculino");
+            default:
+                JOptionPane.showMessageDialog(null, "Invalido");
         }
     }
 }
