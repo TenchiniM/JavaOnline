@@ -19,6 +19,22 @@ public class ProfessorTest {
 
         System.out.println("Matricula: " + professor.matricula);
 
+        System.out.println("-----------------");
+
+        Professor professor2 = new Professor();
+        professor2.matricula = "879875465462";
+        professor2.cpf = "456333215";
+        professor2.nome = "Jilçon";
+        professor2.rg = "555-99945-789";
+
+        System.out.println("Nome: " + professor2.nome);
+
+        System.out.println("Cpf: " + professor2.cpf);
+
+        System.out.println("RG: " + professor2.rg);
+
+        System.out.println("Matricula: " + professor2.matricula);
+
 
     }
 }
