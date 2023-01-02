@@ -8,6 +8,7 @@ public class CalculadoraTest {
         calc.somaDoisNumeros();
         System.out.println("Continuando a execução");
         calc.subtraiDoisNumeros();
+        calc.multiplicaDoisNumeros(10, 20);
     }
 
 }
