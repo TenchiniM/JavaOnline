@@ -12,13 +12,9 @@ public class ProfessorTest {
         professor.matricula = "123456789";
 
         System.out.println("Nome: " + professor.nome);
-
         System.out.println("Cpf: " + professor.cpf);
-
         System.out.println("RG: " + professor.rg);
-
         System.out.println("Matricula: " + professor.matricula);
-
         System.out.println("-----------------");
 
         Professor professor2 = new Professor();
@@ -28,11 +24,8 @@ public class ProfessorTest {
         professor2.rg = "555-99945-789";
 
         System.out.println("Nome: " + professor2.nome);
-
         System.out.println("Cpf: " + professor2.cpf);
-
         System.out.println("RG: " + professor2.rg);
-
         System.out.println("Matricula: " + professor2.matricula);
 
 
