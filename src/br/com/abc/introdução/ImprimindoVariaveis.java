@@ -1,4 +1,4 @@
-package br.com.abc.Introdução;
+package br.com.abc.introdução;
 
 import javax.swing.*;
 

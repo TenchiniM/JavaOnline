@@ -1,4 +1,4 @@
-package br.com.abc.Introdução;
+package br.com.abc.introdução.operadores;
 
 public class Operadores {
     public static void main(String[] args) {
