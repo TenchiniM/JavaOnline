@@ -7,9 +7,9 @@ public class ProfessorTest {
     public static void main(String[] args) {
         Professor professor = new Professor();
         professor.nome = "Arnaldo";
-        professor.cpf = 18031442703F;
-        professor.rg = 123456789F;
-        professor.matricula = 123456789;
+        professor.cpf = "18031442703";
+        professor.rg = "123456789";
+        professor.matricula = "123456789";
 
         System.out.println("Nome: " + professor.nome);
 
