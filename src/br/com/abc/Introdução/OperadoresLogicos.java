@@ -1,6 +1,4 @@
-package Operadores;
-
-import javax.swing.*;
+package br.com.abc.Introdução;
 
 public class OperadoresLogicos {
     public static void main(String[] args) {

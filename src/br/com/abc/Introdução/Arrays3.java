@@ -1,4 +1,4 @@
-package Arrays;
+package br.com.abc.Introdução;
 
 public class Arrays3 {
     public static void main(String[] args) {
