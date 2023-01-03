@@ -2,7 +2,6 @@ package br.com.abc.javacore.introducaometodos.classes;
 
 public class Calculadora {
     public void somaDoisNumeros() {
-
         System.out.println(5 + 5);
     }
 
@@ -31,8 +30,15 @@ public class Calculadora {
             System.out.println(num1 / num2);
             return;
         }
-            System.out.println("Não foi possivel dividir esse valor");
+        System.out.println("Não foi possivel dividir esse valor");
+    }
 
+    public void alteraDoisNumeros(int num1, int num2) {
+        num1 = 30;
+        num2 = 20;
+        System.out.println("Dentro do altera dois numeros");
+        System.out.println("Num1: " + num1);
+        System.out.println("Num2: " + num2);
     }
 }
 
